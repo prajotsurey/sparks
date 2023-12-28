@@ -1,0 +1,22 @@
+.screen {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.line {
+  position: absolute;
+  transform-origin: top left;
+  scale: 0
+} 
+.box {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: black;
+  scale: 0;
+}
+

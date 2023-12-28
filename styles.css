@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: #4a4a4a;
+  text-decoration: none;
+  transition: color 100ms;
+}
+
+a:hover {
+  color: black;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+@media (min-width: 800px) {
+  h1{
+    font-weight: 700;
+    font-size: 8rem;
+  }  
+}

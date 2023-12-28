@@ -1,0 +1,8 @@
+.nav {
+  display: flex; 
+  gap: 2rem;  
+  padding: 2rem;
+  margin: auto;
+  width: fit-content;
+  font-weight: 500;
+}

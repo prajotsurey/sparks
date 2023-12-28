@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin-top: -6rem;
+  background-color: #fffaf1;
+}
+
+.enterFader {
+  position: absolute;
+  inset: 0px;  
+  background-color:#fffaf1;
+  pointer-events: none;
+}
