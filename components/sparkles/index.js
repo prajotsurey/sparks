@@ -163,9 +163,9 @@ const Sparkles = () => {
         );
       })
 
-      gsap.to(screen.current, { backgroundColor: "#fffaf1", opacity: 0, duration: 0 });
+      gsap.to(screen.current, { background: 'linear-gradient(to bottom ,#fffaf1,#ffe2bd)', opacity: 0, duration: 0 });
       gsap.to(screen.current, {
-        backgroundColor: "#fffaf1",
+        background:  'linear-gradient(to bottom ,#fffaf1,#ffe2bd)',  
         opacity: 1,
         duration: 0.5,
       });

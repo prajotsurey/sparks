@@ -3,13 +3,13 @@
   place-items: center;
   min-height: 100vh;
   min-width: 100vw;
-  margin-top: -6rem;
-  background-color: #fffaf1;
+  margin-top: -84px;
+  background: linear-gradient(to bottom ,#fffaf1,#ffe2bd);
 }
 
 .enterFader {
   position: absolute;
   inset: 0px;  
-  background-color:#fffaf1;
+  background: linear-gradient(to bottom ,#fffaf1,#ffe2bd);
   pointer-events: none;
 }
